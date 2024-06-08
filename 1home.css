@@ -1,0 +1,106 @@
+.content-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 80px;
+}
+
+.user-image {
+    height: 600px;
+    width: 600px;
+    margin-right: 50px;
+    border-radius: 50%;
+}
+
+.content {
+    font-weight: bold;
+    color: darkgray;
+    text-decoration: none;
+}
+
+.hello {
+    font-family: 'Century';
+    font-size: 6em;
+}
+
+.bit {
+    font-family: 'Georgia';
+    font-size: 4em;
+    font-weight: lighter;
+    margin-bottom: -50px;
+}
+
+.circle-list {
+    list-style: none;
+    padding: 0;
+}
+
+.circle-list li {
+    width: 200px;
+    height: 200px;
+    line-height: 200px;
+    text-align: center;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.circle-list a{
+    font-family: 'Arial';
+}
+
+.red { 
+    background-color: #FF5F1F; 
+}
+.blue { 
+    background-color: #1F51FF; 
+}
+.green { 
+    background-color: #32CD32; 
+}
+
+.outro {
+    font-family: 'Calibri';
+    font-size: 1.5em;
+    font-weight: lighter;
+    margin-top: 40px;
+}
+
+.personal-information {
+    margin: 40px auto;
+    width: 80%;
+    text-align: center;
+    background-color: #333;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.personal-information h2 {
+    font-family: 'Georgia';
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+.info-columns {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.column {
+    flex: 1;
+    max-width: 45%;
+    margin: 0 10px;
+}
+
+.personal-information p {
+    font-family: 'Arial';
+    font-size: 1.2em;
+    line-height: 1.6;
+    margin: 10px 0;
+}
+
+.personal-information p strong {
+    font-size: 1.5em;
+    color: #e00;
+}
